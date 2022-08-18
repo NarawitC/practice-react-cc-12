@@ -1,7 +1,7 @@
 const todoListsData = [
   {
     title: 'Learn JavaScript',
-    category: 'Web Development',
+    category: 'webDevelopment',
     date: '31/01/2022',
     location: {
       province: 'Bangkok',
@@ -11,7 +11,7 @@ const todoListsData = [
   },
   {
     title: 'Learn React',
-    category: 'Web Development',
+    category: 'webDevelopment',
     date: '01/02/2022',
     location: {
       province: 'Pathum Thani',
@@ -21,7 +21,7 @@ const todoListsData = [
   },
   {
     title: 'Watch Netflix',
-    category: 'Entertainment',
+    category: 'entertainment',
     date: '22/08/2022',
     location: {
       province: 'Chiang Mai',
