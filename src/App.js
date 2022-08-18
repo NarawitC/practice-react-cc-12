@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import CreateTodoSection from './components/CreateTodoSection';
+import TodoLists from './components/TodoLists';
+import todoLists from './database/todoLists';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        padding: '3rem 0',
+        margin: 'auto ',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '2rem',
+        width: '70%',
+      }}
+    >
+      <CreateTodoSection />
+      <hr />
+      <TodoLists todoLists={todoLists} />
     </div>
   );
 }
