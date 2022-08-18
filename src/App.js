@@ -1,6 +1,6 @@
 import CreateTodoSection from './components/CreateTodoSection';
 import TodoLists from './components/TodoLists';
-import todoLists from './database/todoLists';
+import todoListsData from './database/todoListsData';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
     >
       <CreateTodoSection />
       <hr />
-      <TodoLists todoLists={todoLists} />
+      <TodoLists />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-const todoLists = [
+const todoListsData = [
   {
     title: 'Learn JavaScript',
     category: 'Web Development',
@@ -31,4 +31,4 @@ const todoLists = [
   },
 ];
 
-export default todoLists;
+export default todoListsData;
