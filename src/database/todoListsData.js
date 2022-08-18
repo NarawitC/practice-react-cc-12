@@ -1,5 +1,8 @@
+import { v4 as uuidv4 } from 'uuid';
+
 const todoListsData = [
   {
+    id: uuidv4(),
     title: 'Learn JavaScript',
     category: 'webDevelopment',
     date: 'Wed Feb 01 2022 00:00:00 GMT+0700 (Indochina Time)',
@@ -10,6 +13,7 @@ const todoListsData = [
     },
   },
   {
+    id: uuidv4(),
     title: 'Learn React',
     category: 'webDevelopment',
     date: 'Tue Feb 01 2022 00:00:00 GMT+0700 (Indochina Time)',
@@ -20,6 +24,7 @@ const todoListsData = [
     },
   },
   {
+    id: uuidv4(),
     title: 'Watch Netflix',
     category: 'entertainment',
     date: 'Mon Aug 22 2022 00:00:00 GMT+0700 (Indochina Time)',
