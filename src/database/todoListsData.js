@@ -2,7 +2,7 @@ const todoListsData = [
   {
     title: 'Learn JavaScript',
     category: 'webDevelopment',
-    date: '31/01/2022',
+    date: 'Wed Feb 01 2022 00:00:00 GMT+0700 (Indochina Time)',
     location: {
       province: 'Bangkok',
       amphure: 'Khet Phra Nakhon',
@@ -12,7 +12,7 @@ const todoListsData = [
   {
     title: 'Learn React',
     category: 'webDevelopment',
-    date: '01/02/2022',
+    date: 'Tue Feb 01 2022 00:00:00 GMT+0700 (Indochina Time)',
     location: {
       province: 'Pathum Thani',
       amphure: 'Mueang Pathum Thani',
@@ -22,7 +22,7 @@ const todoListsData = [
   {
     title: 'Watch Netflix',
     category: 'entertainment',
-    date: '22/08/2022',
+    date: 'Mon Aug 22 2022 00:00:00 GMT+0700 (Indochina Time)',
     location: {
       province: 'Chiang Mai',
       amphure: 'Mueang Chiang Mai',
