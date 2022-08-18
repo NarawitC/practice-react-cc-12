@@ -5,7 +5,7 @@ const todoListsData = [
     id: uuidv4(),
     title: 'Learn JavaScript',
     category: 'webDevelopment',
-    date: 'Wed Feb 01 2022 00:00:00 GMT+0700 (Indochina Time)',
+    date: 'Wed Feb 02 2022 00:00:00 GMT+0700 (Indochina Time)',
     location: {
       province: 'Bangkok',
       amphure: 'Khet Phra Nakhon',
